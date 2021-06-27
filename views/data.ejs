@@ -1,0 +1,14 @@
+<%- contentFor('title') %>
+DATA
+<%- contentFor('body') %>
+<ul>
+
+  <% for (const dulieu of model) { %>
+    <li>
+      <%= dulieu.name %>
+      <em>(<%= dulieu.email %>)</em>
+    </li>
+  <% } %>
+
+</ul>
+

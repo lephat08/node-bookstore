@@ -1,0 +1,34 @@
+<%- contentFor('title') %>
+Info
+<%- contentFor('body') %>
+
+<h4>Thông số kỹ thuật</h4>
+
+<div class="table-responsive-sm">
+  <table class="table table-hover table-bordered table-striped">
+    <thead>
+      <tr class="bg-primary text-center">
+        <th class="">Công ty</th>
+        <th>Loại sách</th>
+        <th>Số trang</th>
+        <th>Nhà xuất bản</th>
+        <th>
+            Mã SKU
+        </th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <% for (const data of model) { %>
+        <tr>
+          <td><%= data._book_company %></td>
+          <td><%= data._book_loai %></td>
+          <td><%= data._book_page %></td>
+          <td><%= data._book_nxb %></td>
+          <td><%= data._book_sku %></td>
+        </tr>
+      <% } %>
+    </tbody>
+  </table>
+  <a style="float: right;" class="btn btn-sm btn-success" href="/">Trở về</a>
+</div>

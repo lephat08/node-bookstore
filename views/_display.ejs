@@ -1,0 +1,27 @@
+<div class="form-group row">
+    <label class="col-form-label col-sm-2" for="name">Họ và Tên</label>
+    <div class="col-sm-8">
+      <input autofocus class="form-control" name="name" value="<%= model.name %>" />
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="email">Email</label>
+    <div class="col-sm-7">
+      <input class="form-control" name="email" value="<%= model.email %>" />
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="city">Thành phố</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" cols="10" name="city" maxlength="3200" rows="2"><%= model.city %></textarea>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="country">Quốc gia</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" cols="10" name="country" maxlength="3200" rows="2"><%= model.country %></textarea>
+    </div>
+  </div>

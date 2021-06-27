@@ -1,0 +1,78 @@
+
+<%- contentFor('title') %>
+Home
+<%- contentFor('body') %>
+<h3>Được xem nhiều nhất</h3>
+<% for (const data of model) { %>
+    <div class="card card-group">
+        <img class="img-thumbnail" style="width: 30%;" src="<%= data._book_image %>" alt="">
+            <div class="card-body">             
+                <h4 class="card-title"><%= data._book_title %></h4>
+                <p class="card-text" style="font-size: large;">
+                    <span class="label warning">Giá tiền: </span> <%= data._book_price %> vnđ
+                </p>
+                <a href="/bookdetail/<%= data._book_id %>" class="btn btn-success" id="myBtn" >Xem nội dung</a>
+                <a href="/detail/<%= data._book_id %>" class="btn btn-info" id="myBtn" data-target="#exampleModalLong" >Thông số kỹ thuật</a>
+                <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"> -->
+                    <!-- Mô tả sản phẩm
+                </button> -->
+                <select name="" class="star">
+                    <option value="">--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4" selected>4</option>
+                    <option value="5">5</option>
+                  </select>
+            </div> 
+            <!-- Modal -->
+  
+            <div class="modal " id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg " role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Chi tiết Sách</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="table-responsive-sm">
+                            <table class="table table-hover table-bordered table-striped">
+                              <thead>
+                                <tr class="bg-primary text-center">
+                                  <th class="">Công ty phát hành</th>
+                                  <th>Loại bìa</th> 
+                                  <th>Số Trang</th>
+                                  <th>SKU</th>
+                                  <th>Nhà xuất bản</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                          
+                                  <tr>
+                                    <td><%= data._book_company %></td>
+                                    <td><%= data._book_loai %></td> 
+                                    <td><%= data._book_page %></td>
+                                    <td><%= data._book_sku %></td> 
+                                    <td><%= data._book_nxb %></td>
+                                  </tr>
+                          
+                              </tbody>
+                            </table>
+                          </div>
+
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+  
+    </div>
+
+<% } %>
+
+

@@ -1,0 +1,36 @@
+<%- contentFor('title') %>
+Info
+<%- contentFor('body') %>
+<h1>Số lượng sách hiện có (<%= model.length %>)</h1>
+
+<div class="table-responsive-sm">
+
+  <table class="table table-hover table-bordered ">
+    <thead>
+      <tr class="bg-primary text-center">
+        <th class="">Tựa sách</th>
+        <!-- <th>Nội dung</th> -->
+        <th>Hình ảnh</th>
+        <th>Gía tiền (vnđ)</th>
+        <th class="d-print-none">
+          <a class="btn btn-sm btn-success" href="/bookcreate">Thêm</a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for (const data of model) { %>
+        <tr>
+          <td><%= data._book_title %></td>
+          <!-- <td><%= data._book_content %></td> -->
+          <td><img src="<%= data._book_image %>" class="img-thumbnail"></td>
+          <!-- <td><%= data._book_image %></td> -->
+          <td><%= data._book_price %></td>
+          <td class="d-print-none">
+            <a class="btn btn-sm btn-primary" href="/editbook/<%= data._book_id %>">Sửa</a>
+            <a class="btn btn-sm btn-danger" href="/deletebook/<%= data._book_id %>">Xóa</a>
+          </td>
+        </tr>
+      <% } %>
+    </tbody>
+  </table>
+</div>

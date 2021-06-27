@@ -1,0 +1,46 @@
+<%- contentFor('title') %>
+Info
+<%- contentFor('body') %>
+
+<div class="table-responsive-sm">
+        <div class="w3-row w3-padding-64" id="about">
+        
+            <div class="w3-col m6 w3-padding-large">
+              <h1 class="w3-center"><%= model._book_title %></h1><br>
+              <p class="w3-large"><%- model._book_content %></p>
+    
+            </div>
+        </div>
+  
+<form action="/addComment" method="post">        
+        <div class="w3-row w3-padding-64" style="margin-right: 25%;">           
+            <section id="app">
+                <div class="container-cm">
+                    <p style="font-weight: bold;">Bình luận</p>
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="comment">
+                        <p  v-for="items in item" v-text="items"></p>
+                      </div><!--End Comment-->
+                      <label for="">Nickname</label>
+                      <input type="text" class="form-control" name="username" style="width: 300px;">
+                      </div><!--End col -->
+                      </div><!-- End row -->
+                  <div class="row">
+                    
+                    <div class="col-6" style="margin-bottom: 10px;">
+                        <label for="" style="margin-top: 8px;">Nội dung</label>
+                         <textarea name="comnent" type="text" class="input" placeholder="Để lại bình luận của bạn" v-model="newItem" ></textarea>
+                         <button class='primaryContained float-right' type="submit">Bình luận</button>
+                         <a href="/" class="btn btn-sm btn-success" id="myBtn">Trở về</a>
+                    </div><!-- End col -->
+                  </div><!--End Row -->
+                </div><!--End Container -->
+              </section><!-- end App -->
+        </div>
+</form>        
+</div>
+
+
+
+

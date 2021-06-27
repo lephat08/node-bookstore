@@ -1,0 +1,63 @@
+<div class="form-group row">
+    <label class="col-form-label col-sm-2" for="ten">Tựa sách</label>
+    <div class="col-sm-8">
+      <input autofocus class="form-control" cols="10" name="ten" value="<%= model._book_title %>" />
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="noidung">Nội dung</label>
+    <div class="col-sm-8">
+      <textarea class="form-control" style="height:200px" cols="10" name="noidung" id="noidung" maxlength="3200" rows="2"><%= model._book_content %></textarea>
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="city">Hình ảnh (cố định)</label>
+    <div class="col-sm-8">
+     
+        <p class="form-control" cols="10" ><%= model._book_image %></p>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="price">Gía</label>
+    <div class="col-sm-8">
+      <input autofocus class="form-control" cols="10" name="price" value="<%= model._book_price %>" />
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="nxb">Nhà xuất bản</label>
+    <div class="col-sm-10">
+      <input autofocus class="form-control" name="nxb" value="<%= model._book_nxb %>"  required />
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="company">Công ty</label>
+    <div class="col-sm-10">
+      <input autofocus class="form-control" name="company" value="<%= model._book_company %>"  required />
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="loai">Loại sách</label>
+    <div class="col-sm-10">
+      <input autofocus class="form-control" name="loai" value="<%= model._book_loai %>"  required />
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="sku">SKU</label>
+    <div class="col-sm-10">
+      <input autofocus class="form-control" name="sku" value="<%= model._book_sku %>" required />
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-form-label col-sm-2" for="page">Số trang</label>
+    <div class="col-sm-10">
+      <input autofocus class="form-control" name="page" value="<%= model._book_page %>"  required />
+    </div>
+  </div>
