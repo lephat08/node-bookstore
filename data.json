@@ -1,0 +1,260 @@
+{
+    "command": "SELECT",
+    "rowCount": 6,
+    "oid": null,
+    "rows": [
+      {
+        "_book_id": "16",
+        "_book_title": "Muôn kiếp nhân sinh 2",
+        "_book_content": "<p>sach hay</p>\r\n",
+        "_book_image": "mkns2157498778.jpg",
+        "_book_price": "163000",
+        "_book_company": null,
+        "_book_loai": null,
+        "_book_sku": null,
+        "_book_nxb": null,
+        "_book_page": null
+      },
+      {
+        "_book_id": "17",
+        "_book_title": "adasada",
+        "_book_content": "<h2>Collaboration features</h2>\r\n\r\n<p>We have also been busy on the collaboration front &mdash; here are some of the enhancements that we have been working on:</p>\r\n\r\n<ul>\r\n\t<li>We have introduced the&nbsp;<a href=\"https://ckeditor.com/docs/ckeditor5/latest/features/collaboration/track-changes/track-changes-api.html#trackchangesdata\"><code>TrackChangesData</code></a>&nbsp;plugin which returns the editor data with all suggestions accepted or rejected.</li>\r\n\t<li>Also for the editing comfort and reliability, we have added the&nbsp;<a href=\"https://ckeditor.com/docs/ckeditor5/latest/features/collaboration/comments/comments-api.html#sidebar\"><code>sidebar.preventScrollOutOfView</code></a>&nbsp;configuration option that prevents sidebar items from being moved out of sight. Your comments, changes and notes will never again disappear above the top edge of the editor!</li>\r\n\t<li>Last but not least, the annotation positioning algorithm has also been enhanced for better performance and user experience.</li>\r\n</ul>\r\n",
+        "_book_image": "a19424cfe9d113c32732d93cf2d5f59a2125318277.jpg",
+        "_book_price": "44000",
+        "_book_company": "adasdadadadd",
+        "_book_loai": "dasds",
+        "_book_sku": "5657654456",
+        "_book_nxb": "aadadsdfsdffffsdfsfsffsdf",
+        "_book_page": "55"
+      },
+      {
+        "_book_id": "10",
+        "_book_title": "Làm thuê hay khởi nghiệp",
+        "_book_content": "sách dạy đời",
+        "_book_image": "704ff0461c44e35fe83d4e653bc231862126032156.jpg",
+        "_book_price": "80000",
+        "_book_company": null,
+        "_book_loai": null,
+        "_book_sku": null,
+        "_book_nxb": null,
+        "_book_page": null
+      },
+      {
+        "_book_id": "12",
+        "_book_title": "cân bằng cảm xúc cả lúc bão giông",
+        "_book_content": "sách dạy đời rất hay",
+        "_book_image": "a19424cfe9d113c32732d93cf2d5f59a2125318277.jpg",
+        "_book_price": "55000",
+        "_book_company": null,
+        "_book_loai": null,
+        "_book_sku": null,
+        "_book_nxb": null,
+        "_book_page": null
+      },
+      {
+        "_book_id": "15",
+        "_book_title": "Đừng lựa chọn an nhàn khi còn trẻ",
+        "_book_content": "sach hay",
+        "_book_image": "0e56b45bddc01b57277484865818ab9b2125469122.jpg",
+        "_book_price": "80000",
+        "_book_company": null,
+        "_book_loai": null,
+        "_book_sku": null,
+        "_book_nxb": null,
+        "_book_page": null
+      },
+      {
+        "_book_id": "1",
+        "_book_title": "Đàn ông sao hỏa, Đàn bà sao kim",
+        "_book_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\r\n",
+        "_book_image": "bc10734989977da424642a1c4750eee2.jpg",
+        "_book_price": "250000",
+        "_book_company": null,
+        "_book_loai": null,
+        "_book_sku": null,
+        "_book_nxb": null,
+        "_book_page": null
+      }
+    ],
+    "fields": [
+      {
+        "name": "_book_id",
+        "tableID": 16416,
+        "columnID": 1,
+        "dataTypeID": 20,
+        "dataTypeSize": 8,
+        "dataTypeModifier": -1,
+        "format": "text"
+      },
+      {
+        "name": "_book_title",
+        "tableID": 16416,
+        "columnID": 2,
+        "dataTypeID": 25,
+        "dataTypeSize": -1,
+        "dataTypeModifier": -1,
+        "format": "text"
+      },
+      {
+        "name": "_book_content",
+        "tableID": 16416,
+        "columnID": 3,
+        "dataTypeID": 25,
+        "dataTypeSize": -1,
+        "dataTypeModifier": -1,
+        "format": "text"
+      },
+      {
+        "name": "_book_image",
+        "tableID": 16416,
+        "columnID": 4,
+        "dataTypeID": 25,
+        "dataTypeSize": -1,
+        "dataTypeModifier": -1,
+        "format": "text"
+      },
+      {
+        "name": "_book_price",
+        "tableID": 16416,
+        "columnID": 5,
+        "dataTypeID": 20,
+        "dataTypeSize": 8,
+        "dataTypeModifier": -1,
+        "format": "text"
+      },
+      {
+        "name": "_book_company",
+        "tableID": 16416,
+        "columnID": 6,
+        "dataTypeID": 25,
+        "dataTypeSize": -1,
+        "dataTypeModifier": -1,
+        "format": "text"
+      },
+      {
+        "name": "_book_loai",
+        "tableID": 16416,
+        "columnID": 7,
+        "dataTypeID": 25,
+        "dataTypeSize": -1,
+        "dataTypeModifier": -1,
+        "format": "text"
+      },
+      {
+        "name": "_book_sku",
+        "tableID": 16416,
+        "columnID": 9,
+        "dataTypeID": 1043,
+        "dataTypeSize": -1,
+        "dataTypeModifier": 259,
+        "format": "text"
+      },
+      {
+        "name": "_book_nxb",
+        "tableID": 16416,
+        "columnID": 10,
+        "dataTypeID": 1043,
+        "dataTypeSize": -1,
+        "dataTypeModifier": 259,
+        "format": "text"
+      },
+      {
+        "name": "_book_page",
+        "tableID": 16416,
+        "columnID": 11,
+        "dataTypeID": 20,
+        "dataTypeSize": 8,
+        "dataTypeModifier": -1,
+        "format": "text"
+      }
+    ],
+    "_parsers": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "_types": {
+      "_types": {
+        "arrayParser": {
+          
+        },
+        "builtins": {
+          "BOOL": 16,
+          "BYTEA": 17,
+          "CHAR": 18,
+          "INT8": 20,
+          "INT2": 21,
+          "INT4": 23,
+          "REGPROC": 24,
+          "TEXT": 25,
+          "OID": 26,
+          "TID": 27,
+          "XID": 28,
+          "CID": 29,
+          "JSON": 114,
+          "XML": 142,
+          "PG_NODE_TREE": 194,
+          "SMGR": 210,
+          "PATH": 602,
+          "POLYGON": 604,
+          "CIDR": 650,
+          "FLOAT4": 700,
+          "FLOAT8": 701,
+          "ABSTIME": 702,
+          "RELTIME": 703,
+          "TINTERVAL": 704,
+          "CIRCLE": 718,
+          "MACADDR8": 774,
+          "MONEY": 790,
+          "MACADDR": 829,
+          "INET": 869,
+          "ACLITEM": 1033,
+          "BPCHAR": 1042,
+          "VARCHAR": 1043,
+          "DATE": 1082,
+          "TIME": 1083,
+          "TIMESTAMP": 1114,
+          "TIMESTAMPTZ": 1184,
+          "INTERVAL": 1186,
+          "TIMETZ": 1266,
+          "BIT": 1560,
+          "VARBIT": 1562,
+          "NUMERIC": 1700,
+          "REFCURSOR": 1790,
+          "REGPROCEDURE": 2202,
+          "REGOPER": 2203,
+          "REGOPERATOR": 2204,
+          "REGCLASS": 2205,
+          "REGTYPE": 2206,
+          "UUID": 2950,
+          "TXID_SNAPSHOT": 2970,
+          "PG_LSN": 3220,
+          "PG_NDISTINCT": 3361,
+          "PG_DEPENDENCIES": 3402,
+          "TSVECTOR": 3614,
+          "TSQUERY": 3615,
+          "GTSVECTOR": 3642,
+          "REGCONFIG": 3734,
+          "REGDICTIONARY": 3769,
+          "JSONB": 3802,
+          "REGNAMESPACE": 4089,
+          "REGROLE": 4096
+        }
+      },
+      "text": {
+        
+      },
+      "binary": {
+        
+      }
+    },
+    "RowCtor": null,
+    "rowAsArray": false
+  }
